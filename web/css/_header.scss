@@ -1,0 +1,27 @@
+& {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 224px;
+  height: 90px;
+  background: url('../images/logo.svg') no-repeat center;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn-singin {
+  // width: 143px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 52px;
+  border: solid black;
+
+  border-width: 2px 4px 4px 5px;
+  border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+  transform: rotate(1deg);
+}

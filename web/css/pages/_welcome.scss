@@ -1,0 +1,13 @@
+.btn-try {
+  width: 260px;
+  height: 50px;
+  border: solid black;
+  border-width: 3px 2px 4px 4px;
+  border-radius: 5% 15% 10% 5%/3% 4% 15% 8%;
+  transform: rotate(-1deg);
+  margin-top: 45px;
+}
+
+.pic {
+  background: url('../../images/spot.svg') no-repeat center;
+}

@@ -1,0 +1,145 @@
+.btn-sketched {
+  font-size: 27px;
+  background: none;
+  border: solid black;
+  font-family: FlowExt, Arial, Helvetica, sans-serif;
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+    animation: draw 1s infinite;
+  }
+  &:active {
+    background-color: #a3a3a3;
+  }
+
+  @keyframes draw {
+    0% {
+      border-width: 2px 4px 4px 5px;
+      border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+    }
+
+    19% {
+      border-width: 2px 4px 4px 5px;
+      border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+    }
+    20% {
+      border-width: 3px 2px 4px 4px;
+      border-radius: 97% 5% 90% 5%/3% 90% 15% 95%;
+    }
+
+    39% {
+      border-width: 3px 2px 4px 4px;
+      border-radius: 97% 5% 90% 5%/3% 90% 15% 95%;
+    }
+    40% {
+      border-width: 4px 2px 3px 4px;
+      border-radius: 90% 6% 92% 3%/13% 80% 15% 95%;
+    }
+
+    59% {
+      border-width: 4px 2px 3px 4px;
+      border-radius: 90% 6% 92% 3%/13% 80% 15% 95%;
+    }
+    60% {
+      border-width: 2px 4px 3px 2px;
+      border-radius: 92% 7% 91% 7%/7% 90% 15% 95%;
+    }
+
+    79% {
+      border-width: 2px 4px 3px 2px;
+      border-radius: 92% 7% 91% 7%/7% 90% 15% 95%;
+    }
+    80% {
+      border-width: 5px 4px 3px 2px;
+      border-radius: 90% 3% 90% 1%/5% 90% 6% 95%;
+    }
+
+    99% {
+      border-width: 5px 4px 3px 2px;
+      border-radius: 90% 3% 90% 1%/5% 90% 6% 95%;
+    }
+    100% {
+      border-width: 2px 4px 4px 5px;
+      border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+    }
+  }
+}
+
+.form-sketched {
+  margin: 25px;
+  width: 465px;
+  height: 485px;
+  border: solid black;
+  float: left;
+  border-width: 3px 4px 3px 5px;
+  border-radius: 95% 4% 50% 5%/8% 9% 6% 95%;
+  transform: rotate(2deg);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  box-sizing: border-box;
+
+  * {
+    transform: rotate(-2deg);
+  }
+
+  input {
+    transform: rotate(0.1deg);
+  }
+}
+
+.inp-sketched {
+  margin: 25px;
+  font-size: 24px;
+  width: 290px;
+  height: 50px;
+  border: solid black;
+  border-width: 5px 2px 3px 4px;
+  border-radius: 90% 5% 90% 5%/10% 90% 15% 95%;
+  outline: none;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  margin: 10px;
+  background: none;
+  
+  font-family: FlowExt, Arial, Helvetica, sans-serif;
+}
+
+.todo-input {
+  width: 600px;
+  font-size: 24px;
+  height: 52px;
+  border: solid black;
+  border-width: 5px 4px 3px 3px;
+  border-radius: 10% 10% 9% 5%/10% 9% 30% 95%;
+  background: none;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0px 20px;
+  font-family: FlowExt, Arial, Helvetica, sans-serif;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.btn-input {
+  border-width: 5px 2px 3px 4px;
+  border-radius: 90% 5% 90% 5%/10% 90% 15% 95%;
+  box-sizing: border-box;
+  width: 290px;
+  height: 50px;
+}
+
+.btn-rounded {
+  border-width: 3px 4px 3px 4px;
+  border-radius: 40% 35% 30% 32%/27% 30% 40% 20%;
+}
+
+
+

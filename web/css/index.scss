@@ -1,0 +1,59 @@
+@import 'fonts';
+@import 'common';
+
+html,
+body {
+  margin: 0;
+  font-family: FlowExt, Arial, Helvetica, sans-serif;
+  background-color: #e1e1e1;
+  height: 100%;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+  height: 100%;
+}
+
+.head-info {
+  font-size: 52px;
+  margin: 0;
+}
+
+.info {
+  font-size: 33px;
+  width: 500px;
+}
+
+main.wrapper {
+  display: flex;
+  height: calc(100% - 112px);
+  > div {
+    width: 50%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+header {
+  @import 'header';
+}
+
+#welcome {
+  @import 'pages/welcome';
+}
+
+#register {
+  @import 'pages/register';
+}
+
+#login {
+  @import 'pages/login';
+}
+
+#main {
+  @import 'pages/main';
+}

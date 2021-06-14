@@ -1,0 +1,594 @@
+@font-face {
+  font-family: FlowExt;
+  src: url("../fonts/FlowExt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: FlowExt;
+  font-weight: bold;
+  src: url("../fonts/FlowExtBold.otf") format("opentype");
+}
+
+.btn-sketched {
+  font-size: 27px;
+  background: none;
+  border: solid black;
+  font-family: FlowExt, Arial, Helvetica, sans-serif;
+  outline: none;
+}
+
+.btn-sketched:hover {
+  cursor: pointer;
+  -webkit-animation: draw 1s infinite;
+          animation: draw 1s infinite;
+}
+
+.btn-sketched:active {
+  background-color: #a3a3a3;
+}
+
+@-webkit-keyframes draw {
+  0% {
+    border-width: 2px 4px 4px 5px;
+    border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+  }
+  19% {
+    border-width: 2px 4px 4px 5px;
+    border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+  }
+  20% {
+    border-width: 3px 2px 4px 4px;
+    border-radius: 97% 5% 90% 5%/3% 90% 15% 95%;
+  }
+  39% {
+    border-width: 3px 2px 4px 4px;
+    border-radius: 97% 5% 90% 5%/3% 90% 15% 95%;
+  }
+  40% {
+    border-width: 4px 2px 3px 4px;
+    border-radius: 90% 6% 92% 3%/13% 80% 15% 95%;
+  }
+  59% {
+    border-width: 4px 2px 3px 4px;
+    border-radius: 90% 6% 92% 3%/13% 80% 15% 95%;
+  }
+  60% {
+    border-width: 2px 4px 3px 2px;
+    border-radius: 92% 7% 91% 7%/7% 90% 15% 95%;
+  }
+  79% {
+    border-width: 2px 4px 3px 2px;
+    border-radius: 92% 7% 91% 7%/7% 90% 15% 95%;
+  }
+  80% {
+    border-width: 5px 4px 3px 2px;
+    border-radius: 90% 3% 90% 1%/5% 90% 6% 95%;
+  }
+  99% {
+    border-width: 5px 4px 3px 2px;
+    border-radius: 90% 3% 90% 1%/5% 90% 6% 95%;
+  }
+  100% {
+    border-width: 2px 4px 4px 5px;
+    border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+  }
+}
+
+@keyframes draw {
+  0% {
+    border-width: 2px 4px 4px 5px;
+    border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+  }
+  19% {
+    border-width: 2px 4px 4px 5px;
+    border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+  }
+  20% {
+    border-width: 3px 2px 4px 4px;
+    border-radius: 97% 5% 90% 5%/3% 90% 15% 95%;
+  }
+  39% {
+    border-width: 3px 2px 4px 4px;
+    border-radius: 97% 5% 90% 5%/3% 90% 15% 95%;
+  }
+  40% {
+    border-width: 4px 2px 3px 4px;
+    border-radius: 90% 6% 92% 3%/13% 80% 15% 95%;
+  }
+  59% {
+    border-width: 4px 2px 3px 4px;
+    border-radius: 90% 6% 92% 3%/13% 80% 15% 95%;
+  }
+  60% {
+    border-width: 2px 4px 3px 2px;
+    border-radius: 92% 7% 91% 7%/7% 90% 15% 95%;
+  }
+  79% {
+    border-width: 2px 4px 3px 2px;
+    border-radius: 92% 7% 91% 7%/7% 90% 15% 95%;
+  }
+  80% {
+    border-width: 5px 4px 3px 2px;
+    border-radius: 90% 3% 90% 1%/5% 90% 6% 95%;
+  }
+  99% {
+    border-width: 5px 4px 3px 2px;
+    border-radius: 90% 3% 90% 1%/5% 90% 6% 95%;
+  }
+  100% {
+    border-width: 2px 4px 4px 5px;
+    border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+  }
+}
+
+.form-sketched {
+  margin: 25px;
+  width: 465px;
+  height: 485px;
+  border: solid black;
+  float: left;
+  border-width: 3px 4px 3px 5px;
+  border-radius: 95% 4% 50% 5%/8% 9% 6% 95%;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-sketched * {
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}
+
+.form-sketched input {
+  -webkit-transform: rotate(0.1deg);
+          transform: rotate(0.1deg);
+}
+
+.inp-sketched {
+  margin: 25px;
+  font-size: 24px;
+  width: 290px;
+  height: 50px;
+  border: solid black;
+  border-width: 5px 2px 3px 4px;
+  border-radius: 90% 5% 90% 5%/10% 90% 15% 95%;
+  outline: none;
+  padding: 0px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 10px;
+  background: none;
+  font-family: FlowExt, Arial, Helvetica, sans-serif;
+}
+
+.todo-input {
+  width: 600px;
+  font-size: 24px;
+  height: 52px;
+  border: solid black;
+  border-width: 5px 4px 3px 3px;
+  border-radius: 10% 10% 9% 5%/10% 9% 30% 95%;
+  background: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  padding: 0px 20px;
+  font-family: FlowExt, Arial, Helvetica, sans-serif;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.btn-input {
+  border-width: 5px 2px 3px 4px;
+  border-radius: 90% 5% 90% 5%/10% 90% 15% 95%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 290px;
+  height: 50px;
+}
+
+.btn-rounded {
+  border-width: 3px 4px 3px 4px;
+  border-radius: 40% 35% 30% 32%/27% 30% 40% 20%;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: FlowExt, Arial, Helvetica, sans-serif;
+  background-color: #e1e1e1;
+  height: 100%;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+  height: 100%;
+}
+
+.head-info {
+  font-size: 52px;
+  margin: 0;
+}
+
+.info {
+  font-size: 33px;
+  width: 500px;
+}
+
+main.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100% - 112px);
+}
+
+main.wrapper > div {
+  width: 50%;
+  height: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header {
+  padding-top: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  width: 224px;
+  height: 90px;
+  background: url("../images/logo.svg") no-repeat center;
+}
+
+header .logo:hover {
+  cursor: pointer;
+}
+
+header .btn-singin {
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 52px;
+  border: solid black;
+  border-width: 2px 4px 4px 5px;
+  border-radius: 80% 5% 90% 5%/5% 90% 10% 85%;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+#welcome .btn-try {
+  width: 260px;
+  height: 50px;
+  border: solid black;
+  border-width: 3px 2px 4px 4px;
+  border-radius: 5% 15% 10% 5%/3% 4% 15% 8%;
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+  margin-top: 45px;
+}
+
+#welcome .pic {
+  background: url("../../images/spot.svg") no-repeat center;
+}
+
+#register .pic {
+  background: url("../../images/pencil.svg") no-repeat center;
+}
+
+#login .pic {
+  background: url("../../images/lock.png") no-repeat center;
+}
+
+#main .wrapper > div:nth-of-type(1) {
+  width: 40%;
+}
+
+#main .wrapper > div:nth-of-type(2) {
+  width: 60%;
+  padding-left: 40px;
+}
+
+#main .modal-wrapper {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+}
+
+#main .modal-wrapper.hidden {
+  display: none;
+}
+
+#main .modal-wrapper .modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  width: 600px;
+  height: 250px;
+  border: solid black;
+  border-width: 5px 2px 3px 4px;
+  border-radius: 90% 5% 90% 5%/10% 90% 15% 95%;
+}
+
+#main .modal-wrapper .modal div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .groups {
+  width: 385px;
+  height: 630px;
+  border: solid black;
+  border-width: 3px 4px 3px 5px;
+  border-radius: 10% 1% 95% 5%/8% 9% 5% 95%;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+  padding: 20px 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#main .groups * {
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+}
+
+#main .groups h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+#main .groups ul {
+  font-size: 25px;
+  letter-spacing: 6px;
+  margin-left: 0;
+  padding-left: 0;
+  height: 500px;
+  width: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#main .groups ul::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 50px;
+}
+
+#main .groups ul::-webkit-scrollbar {
+  width: 5px;
+  background: none;
+  border-radius: 50px;
+}
+
+#main .groups ul::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #555555;
+  border-radius: 50px;
+}
+
+#main .groups ul li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#main .groups ul li .group-name {
+  word-wrap: break-word;
+  max-width: 200px;
+}
+
+#main .groups ul li button {
+  font-size: 15px;
+  height: 28px;
+  width: 28px;
+  margin-right: 10px;
+}
+
+#main .groups ul li::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  background-color: black;
+  width: 100%;
+  height: 20px;
+  background: url("../../images/select.svg") no-repeat left;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#main .groups ul li:hover::after {
+  opacity: 1;
+}
+
+#main .groups ul li.selected::after {
+  opacity: 1;
+}
+
+#main .groups .groups-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .groups .groups-header button {
+  height: 40px;
+  width: 40px;
+}
+
+#main .input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#main .input-wrapper button {
+  margin-left: 20px;
+  width: 52px;
+  height: 52px;
+  margin-top: -3px;
+  background: url("../../images/arrow.svg") no-repeat center;
+}
+
+#main .input-wrapper button:active {
+  background-color: #a3a3a3;
+}
+
+#main .todo-list {
+  height: 570px;
+  overflow-y: auto;
+  padding-right: 7px;
+}
+
+#main .todo-list::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 50px;
+}
+
+#main .todo-list::-webkit-scrollbar {
+  width: 7px;
+  background: none;
+  border-radius: 50px;
+}
+
+#main .todo-list::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border: 2px solid #555555;
+  border-radius: 50px;
+}
+
+#main .todo-list .todo {
+  position: relative;
+  margin-top: 35px;
+  width: 680px;
+  min-height: 62px;
+  border: solid black;
+  border-width: 5px 4px 3px 3px;
+  border-radius: 10% 10% 10% 2%/20% 9% 45% 25%;
+  font-size: 30px;
+  padding: 15px 10px 15px 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+#main .todo-list .todo .group {
+  position: absolute;
+  right: 5px;
+  font-size: 20px;
+  top: -28px;
+}
+
+#main .todo-list .todo span {
+  display: block;
+  max-width: 570px;
+}
+
+#main .todo-list .todo input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border: solid black 2px;
+  border-radius: 35%;
+  outline: none;
+  position: absolute;
+  top: 13px;
+  left: 5px;
+}
+
+#main .todo-list .todo input:checked {
+  background: url("../../images/check.svg") no-repeat 4px 8px;
+}
+
+#main .todo-list .todo.checked > .text {
+  text-decoration: line-through;
+}
+
+#main .todo-list .todo .delete {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: url("../../images/cross.svg") center/35px;
+}
+/*# sourceMappingURL=index.css.map */
